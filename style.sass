@@ -1,0 +1,25 @@
+*
+   box-sizing: border-box
+   margin: 0
+   padding: 0
+   font-family: 'Roboto', sans-serif
+
+.grid-container
+   width: 1140px
+   margin: 82px auto 0 auto
+   display: grid
+   grid-template-columns: repeat(4, 240px)
+   grid-template-rows: repeat(2, minmax(260px, auto))
+   grid-auto-rows: 200px
+   gap: 60px
+.news-item
+   &__img
+      width: 100%
+   &__descr
+      font-family: Roboto
+      font-size: 14px
+      font-style: normal
+      font-weight: 400
+      line-height: 16px
+      text-align: left
+
